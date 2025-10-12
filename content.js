@@ -836,7 +836,7 @@ class GmailContentScript {
             }
 
             .mailmind-multi-sidebar .mailmind-sidebar-header {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                background: #0077B6 !important;
                 color: white !important;
                 padding: 16px !important;
                 display: flex !important;
@@ -900,8 +900,8 @@ class GmailContentScript {
             .mailmind-multi-sidebar .mailmind-spinner {
                 width: 32px !important;
                 height: 32px !important;
-                border: 3px solid #f3f3f3 !important;
-                border-top: 3px solid #667eea !important;
+                border: 3px solid #90E0EF !important;
+                border-top: 3px solid #0077B6 !important;
                 border-radius: 50% !important;
                 animation: mailmindSpin 1s linear infinite !important;
                 margin: 0 auto 16px !important;
@@ -936,7 +936,7 @@ class GmailContentScript {
             }
 
             .mailmind-multi-sidebar .mailmind-email-item {
-                background: #f8f9fa !important;
+                background: #CAF0F8 !important;
                 border: 1px solid #e2e8f0 !important;
                 border-radius: 8px !important;
                 padding: 12px !important;
@@ -962,7 +962,7 @@ class GmailContentScript {
 
             .mailmind-multi-sidebar .mailmind-email-sender {
                 font-size: 13px !important;
-                color: #4299e1 !important;
+                color: #0077B6 !important;
                 font-weight: 500 !important;
                 max-width: 200px !important;
                 overflow: hidden !important;
@@ -990,7 +990,7 @@ class GmailContentScript {
                 background: white !important;
                 padding: 8px 10px !important;
                 border-radius: 4px !important;
-                border-left: 3px solid #4299e1 !important;
+                border-left: 3px solid #0077B6 !important;
             }
 
             .mailmind-multi-sidebar .mailmind-actions-section {
@@ -1016,12 +1016,12 @@ class GmailContentScript {
             }
 
             .mailmind-multi-sidebar .mailmind-export-btn {
-                background: #48bb78 !important;
+                background: #0077B6 !important;
                 color: white !important;
             }
 
             .mailmind-multi-sidebar .mailmind-export-btn:hover {
-                background: #38a169 !important;
+                background: #03045E !important;
             }
 
             .mailmind-multi-sidebar .mailmind-clear-selection-btn {
@@ -1035,13 +1035,13 @@ class GmailContentScript {
             }
 
             .mailmind-multi-sidebar .mailmind-retry-btn {
-                background: #4299e1 !important;
+                background: #0077B6 !important;
                 color: white !important;
                 width: 100% !important;
             }
 
             .mailmind-multi-sidebar .mailmind-retry-btn:hover {
-                background: #3182ce !important;
+                background: #03045E !important;
             }
 
             /* Custom scrollbar for the emails list */
@@ -1071,7 +1071,7 @@ class GmailContentScript {
                 height: 44px !important;
                 border-radius: 50% !important;
                 border: none !important;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+                background: #0077B6 !important;
                 color: #fff !important;
                 font-size: 20px !important;
                 line-height: 1 !important;
@@ -2093,7 +2093,7 @@ Reply:`;
             }
 
             .mailmind-sidebar .mailmind-sidebar-header {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: #0077B6;
                 color: white;
                 padding: 16px;
                 display: flex;
@@ -2138,8 +2138,8 @@ Reply:`;
             .mailmind-sidebar .mailmind-spinner {
                 width: 32px;
                 height: 32px;
-                border: 3px solid #f3f3f3;
-                border-top: 3px solid #667eea;
+                border: 3px solid #90E0EF;
+                border-top: 3px solid #0077B6;
                 border-radius: 50%;
                 animation: spin 1s linear infinite;
                 margin: 0 auto 16px;
@@ -2195,12 +2195,12 @@ Reply:`;
             }
 
             .mailmind-sidebar .mailmind-use-reply-btn {
-                background: #667eea;
+                background: #0077B6;
                 color: white;
             }
 
             .mailmind-sidebar .mailmind-use-reply-btn:hover {
-                background: #5a67d8;
+                background: #03045E;
             }
 
             .mailmind-sidebar .mailmind-copy-reply-btn {
@@ -2263,14 +2263,14 @@ Reply:`;
 
             .mailmind-sidebar .mailmind-custom-input:focus {
                 outline: none;
-                border-color: #667eea;
-                box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+                border-color: #00B4D8;
+                box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.1);
             }
 
             .mailmind-sidebar .mailmind-generate-custom-btn {
                 width: 100%;
                 padding: 10px 16px;
-                background: #10b981;
+                background: #0077B6;
                 color: white;
                 border: none;
                 border-radius: 6px;
@@ -2281,7 +2281,7 @@ Reply:`;
             }
 
             .mailmind-sidebar .mailmind-generate-custom-btn:hover {
-                background: #059669;
+                background: #03045E;
             }
 
             .mailmind-sidebar .mailmind-generate-custom-btn:disabled {
@@ -2320,12 +2320,12 @@ Reply:`;
             }
 
             .mailmind-sidebar .mailmind-use-custom-reply-btn {
-                background: #667eea;
+                background: #0077B6;
                 color: white;
             }
 
             .mailmind-sidebar .mailmind-use-custom-reply-btn:hover {
-                background: #5a67d8;
+                background: #03045E;
             }
 
             .mailmind-sidebar .mailmind-copy-custom-reply-btn {

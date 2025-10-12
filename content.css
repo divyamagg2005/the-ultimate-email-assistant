@@ -34,7 +34,7 @@ body {
     margin: 0;
     font-size: 20px;
     font-weight: 600;
-    color: #1a73e8;
+    color: #0077B6;
 }
 
 .settings-btn {
@@ -75,13 +75,13 @@ body {
 
 .input-group input:focus {
     outline: none;
-    border-color: #1a73e8;
-    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+    border-color: #00B4D8;
+    box-shadow: 0 0 0 2px rgba(0, 180, 216, 0.2);
 }
 
 .input-group button {
     padding: 10px 16px;
-    background: #1a73e8;
+    background: #0077B6;
     color: white;
     border: none;
     border-radius: 4px;
@@ -91,7 +91,7 @@ body {
 }
 
 .input-group button:hover:not(:disabled) {
-    background: #1557b0;
+    background: #03045E;
 }
 
 .input-group button:disabled {
@@ -106,7 +106,7 @@ body {
 }
 
 .help-text a {
-    color: #1a73e8;
+    color: #00B4D8;
     text-decoration: none;
 }
 
@@ -134,18 +134,18 @@ body {
 
 .stat-card {
     flex: 1;
-    background: #f8f9fa;
+    background: #90E0EF;
     padding: 16px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #e8eaed;
+    border: 1px solid #00B4D8;
 }
 
 .stat-number {
     display: block;
     font-size: 24px;
     font-weight: 600;
-    color: #1a73e8;
+    color: #0077B6;
     margin-bottom: 4px;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 .btn-primary {
-    background: #1a73e8;
+    background: #0077B6;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -178,7 +178,7 @@ body {
 }
 
 .btn-primary:hover:not(:disabled) {
-    background: #1557b0;
+    background: #03045E;
 }
 
 .btn-primary:disabled {
@@ -195,8 +195,8 @@ body {
 .spinner {
     width: 32px;
     height: 32px;
-    border: 3px solid #f3f3f3;
-    border-top: 3px solid #1a73e8;
+    border: 3px solid #90E0EF;
+    border-top: 3px solid #0077B6;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin: 0 auto 16px;
@@ -226,8 +226,8 @@ body {
 }
 
 .summary-item {
-    background: #f8f9fa;
-    border: 1px solid #e8eaed;
+    background: #CAF0F8;
+    border: 1px solid #90E0EF;
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 8px;
@@ -251,7 +251,7 @@ body {
 
 .sender {
     font-size: 13px;
-    color: #1a73e8;
+    color: #0077B6;
     font-weight: 500;
     max-width: 200px;
     overflow: hidden;
@@ -291,9 +291,9 @@ body {
     text-align: center;
     padding: 8px 16px;
     margin-top: 8px;
-    background: #e8f0fe;
+    background: #CAF0F8;
     border-radius: 6px;
-    color: #1565c0;
+    color: #03045E;
     font-size: 11px;
 }
 
